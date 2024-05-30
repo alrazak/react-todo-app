@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import Todos from './components/Todos'
+import Todos from './components/Todos';
+
 
 function App() {
   const [todos, setTodos] = useState([
