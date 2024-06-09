@@ -42,12 +42,16 @@ const styles = {
     marginBottom: '32px',
   },
   formInput: {
+    backgroundColor: '#F8F8FF',
+    border: '2px solid #b1d0d6',
     height: '66px',
     width: '40%',
     fontSize: '16px',
     padding: '0 16px',
   },
   button: {
+    backgroundColor: '#b1d0d6',
+    border: '2px solid #b1d0d6',
     height: '72px',
     fontSize: '16px',
   },

@@ -6,17 +6,32 @@ function App() {
   const [todos, setTodos] = useState([
     {
       id: 1,
-      title: 'Finish Progate React Course',
+      title: 'Pagi, kuliah algoritma dan pemrogramman',
       completed: false,
     },
     {
       id: 2,
-      title: 'Have lunch with Guru Domba',
+      title: 'Siang, meeting internal ukm',
       completed: false,
     },
     {
       id: 3,
-      title: 'Study React with Ninja Ken',
+      title: 'Sore, event developer',
+      completed: false,
+    },
+    {
+      id: 4,
+      title: 'Malam, explore teknologi baru',
+      completed: false,
+    },
+    {
+      id: 5,
+      title: 'Buat project web portofolio',
+      completed: false,
+    },
+    {
+      id: 6,
+      title: 'Buat list untuk besok',
       completed: false,
     },
   ]);
@@ -64,6 +79,7 @@ const styles = {
   container: {
     textAlign: 'center',
     padding: '12px',
+    backgroundColor: '#F0F8FF',
   },
   title: {
     fontSize: '36px',
